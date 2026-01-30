@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "notion": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-notion"
+      ],
+      "env": {
+        "NOTION_API_KEY": "secret_REEMPLAZA_ESTE_TOKEN_CON_TU_API_KEY_DE_NOTION"
+      }
+    }
+  }
+}
